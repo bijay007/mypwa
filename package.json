@@ -1,6 +1,7 @@
 {
   "name": "mypwa",
   "version": "0.0.0",
+  "homepage": "https://bijay007.github.io/mypwa/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
