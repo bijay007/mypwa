@@ -17,7 +17,7 @@ import { environment } from '../environments/environment';
     ImageComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }).withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
